@@ -31,10 +31,13 @@ https://www.youtube.com/watch?v=jTk6XP4IgGs
 #### @6:45 useEffect Function (continued)
 - [... and then return for us the response, and then we save it as resp](https://youtu.be/jTk6XP4IgGs?t=405)
 
+##### @7:04 use json to save as object
+- [user json to save the returned resp as an object named result](https://youtu.be/jTk6XP4IgGs?t=424)
+
 ## Bugs
 ### Resolved
 #### Failed to compile
-- Issue [2 occurrences]:
+- Issue [3 occurrences]:
     - failing to compile App JavaScript file
 - Solution [1st occurrence]:
     - Used code given at top of this website:
@@ -48,3 +51,13 @@ https://www.youtube.com/watch?v=jTk6XP4IgGs
         - [reactjs.org Using the Effect Hook](https://reactjs.org/docs/hooks-effect.html)
     - ... to check code in App JavaScript file
     - changed curly brackets to parentheses
+- Solution [3rd occurrence]:
+    - Switched curly brackets to parentheses for the json method of the response object saved in resp variable
+
+## References
+
+### Video Tutorial
+- [Build a News App With React | React Tutorial For Beginners]()
+- "The Response object offers a lot of useful methods (all returning promises):
+
+response.json() returns a promise resolved to a JSON object" [https://dmitripavlutin.com/javascript-fetch-async-await/#2-fetching-json](https://dmitripavlutin.com/javascript-fetch-async-await/)
