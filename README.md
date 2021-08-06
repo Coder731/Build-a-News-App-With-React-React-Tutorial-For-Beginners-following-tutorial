@@ -22,6 +22,9 @@ https://www.youtube.com/watch?v=jTk6XP4IgGs
 - [it takes in a function, as the first value; and then it takes a dependency array as the second value](https://youtu.be/jTk6XP4IgGs?t=341)
 - [so if you leave it as an empty array that means that: it will run after this component [the return block] has been mounted](https://youtu.be/jTk6XP4IgGs?t=348)
 
+#### @6:04 use Effect (continued)
+- [Integrate so that it runs component has mounted](https://youtu.be/jTk6XP4IgGs?t=364)
+
 ## Bugs
 ### Resolved
 #### Failed to compile

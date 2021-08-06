@@ -7,7 +7,13 @@ function App() {
 
   const  [data,setData] = useState({})
 
-  useEffect(()=>{},[])
+  useEffect(()=>{
+    const fetchData = async () => {
+      const resp = await fetch(url)
+    }
+
+
+  },[])
 
 
   return (
