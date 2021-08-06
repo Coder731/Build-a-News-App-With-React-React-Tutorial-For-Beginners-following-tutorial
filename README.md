@@ -25,6 +25,12 @@ https://www.youtube.com/watch?v=jTk6XP4IgGs
 #### @6:04 use Effect (continued)
 - [Integrate so that it runs component has mounted](https://youtu.be/jTk6XP4IgGs?t=364)
 
+#### @6:34 useEffect Function
+- [awaiting the result of what we get from fetch, which goes to url](https://youtu.be/jTk6XP4IgGs?t=400)
+
+#### @6:45 useEffect Function (continued)
+- [... and then return for us the response, and then we save it as resp](https://youtu.be/jTk6XP4IgGs?t=405)
+
 ## Bugs
 ### Resolved
 #### Failed to compile
