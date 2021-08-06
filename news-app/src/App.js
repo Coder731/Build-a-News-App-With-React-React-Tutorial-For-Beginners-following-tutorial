@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState,useEffect} from 'react';
 import "./App.css";
 
 const url = "https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=08aa08ce867c4d2eae07a4b968d1874c"
