@@ -31,8 +31,20 @@ https://www.youtube.com/watch?v=jTk6XP4IgGs
 #### @6:45 useEffect Function (continued)
 - [... and then return for us the response, and then we save it as resp](https://youtu.be/jTk6XP4IgGs?t=405)
 
-##### @7:04 use json to save as object
-- [user json to save the returned resp as an object named result](https://youtu.be/jTk6XP4IgGs?t=424)
+#### @7:04 use json to save as object
+- [use json to save the returned resp as an object named result](https://youtu.be/jTk6XP4IgGs?t=424)
+
+#### @7:17 use set Data method
+- [use set Data method pass in result](https://youtu.be/jTk6XP4IgGs?t=437)
+
+## Thoughts
+### On fetchData object variable and setData method
+- [From this point in video...](https://youtu.be/jTk6XP4IgGs?t=437)
+- [....and MDN Web Docs...](https://developer.mozilla.org/en-US/docs/Web/API/DataTransfer/setData)
+- ...it seems that fetchData is a variable (which is an object) that is using the setData method which takes the result variable as an argument.
+- That is, fetchData is set to the result,
+    - which has the response object, 
+        - which has been "[resolved to a JSON object](https://dmitripavlutin.com/javascript-fetch-async-await/#2-fetching-json)".
 
 ## Bugs
 ### Resolved
@@ -61,3 +73,4 @@ https://www.youtube.com/watch?v=jTk6XP4IgGs
 - "The Response object offers a lot of useful methods (all returning promises):
 
 response.json() returns a promise resolved to a JSON object" [https://dmitripavlutin.com/javascript-fetch-async-await/#2-fetching-json](https://dmitripavlutin.com/javascript-fetch-async-await/)
+- The DataTransfer.setData() method sets the drag operation's drag data to the specified data and type. If data for the given type does not exist, it is added at the end of the drag data store, such that the last item in the types list will be the new type. [DataTransfer.setData()](https://developer.mozilla.org/en-US/docs/Web/API/DataTransfer/setData)
