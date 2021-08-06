@@ -7,9 +7,9 @@ function App() {
 
   const  [data,setData] = useState({})
 
-  
+  useEffect(()=>{},[])
 
-  
+
   return (
     <div className="App">
       <h1>Welcome to News App</h1>
