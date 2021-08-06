@@ -5,7 +5,9 @@ const url = "https://newsapi.org/v2/top-headlines?country=us&category=business&a
 
 
 function App() {
+
   const  [data,setData] = useState({})
+  
   return (
     <div className="App">
       <h1>Welcome to News App</h1>
