@@ -6,8 +6,16 @@ https://www.youtube.com/watch?v=jTk6XP4IgGs
 ### What is use State and what does it do?
 - A hook.
 - Enable us to track the state of our RTeact component
-### @5:24 in video tutorial
+
+### in video tutorial:
+
+#### @5:24 use Effect
+
 - [use Effect is another hook that will enable you to have the react live components.  You can access them in a function component.](https://youtu.be/jTk6XP4IgGs?t=324)
+
+#### @5:34 use Effect
+
+- [use Effect to call to get data from url](https://youtu.be/jTk6XP4IgGs?t=334)
 
 ## Bugs
 ### Resolved
