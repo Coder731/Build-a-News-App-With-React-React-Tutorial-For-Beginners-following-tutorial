@@ -37,7 +37,7 @@ https://www.youtube.com/watch?v=jTk6XP4IgGs
 #### @7:17 use set Data method
 - [use set Data method pass in result](https://youtu.be/jTk6XP4IgGs?t=437)
 
-## Thoughts
+## Notes
 ### On fetchData object variable and setData method
 - [From this point in video...](https://youtu.be/jTk6XP4IgGs?t=437)
 - [....and MDN Web Docs...](https://developer.mozilla.org/en-US/docs/Web/API/DataTransfer/setData)
