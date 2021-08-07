@@ -46,6 +46,25 @@ https://www.youtube.com/watch?v=jTk6XP4IgGs
     - which has the response object, 
         - which has been "[resolved to a JSON object](https://dmitripavlutin.com/javascript-fetch-async-await/#2-fetching-json)".
 
+### On Command Line Interface
+- Project file opens in gitpod workspace
+    - in folder
+        Build-a-News-App-With-React-React-Tutorial-For-Beginners-following-tutorial
+- For git:
+    - Repository:
+        - add commit and push commands in CLI from the above folder
+- Attempting to run the News App from the folder above does not work
+    - (Using the usual Live Server, as used when running directly from say an index.html file (not present here, but html contained in news-app/src/App.js))
+- For running the News App:
+    - In Command Line Interface:
+        - Open a second Terminal (in gitpod):
+            - change directory:
+                - cd news-app
+            - run command:
+                - npm start
+            - preview of src/App.js should open in Browser
+- Can keep both CLI's open
+
 ## Bugs
 ### Resolved
 #### Failed to compile
