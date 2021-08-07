@@ -65,6 +65,12 @@ https://www.youtube.com/watch?v=jTk6XP4IgGs
             - preview of src/App.js should open in Browser
 - Can keep both CLI's open
 
+### On data
+- Tested App.js using npm start, per procedure in previous note as in [Video Tutorial just before @ 8:48](https://youtu.be/jTk6XP4IgGs?t=528)
+    - Duplicated and modified return block of code in App.js
+        - Added if statement to code 
+        - second block - modified - used to handle if no data received 
+
 ## Bugs
 ### Resolved
 #### Failed to compile
