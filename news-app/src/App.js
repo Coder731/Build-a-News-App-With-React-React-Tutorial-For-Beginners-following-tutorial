@@ -7,15 +7,15 @@ function App() {
 
   const  [data,setData] = useState({})
 
-  useEffect(()=>{
+  useEffect(() => {
     const fetchData = async () => {
       const resp = await fetch(url)
       const result = await resp.json()
       setData(result)
-      
+      console.log(data);
     }
 
-
+fetchData() 
   },[])
 
 
