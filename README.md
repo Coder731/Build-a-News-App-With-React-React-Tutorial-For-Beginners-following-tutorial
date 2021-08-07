@@ -69,7 +69,8 @@ https://www.youtube.com/watch?v=jTk6XP4IgGs
 - Tested App.js using npm start, per procedure in previous note as in [Video Tutorial just before @ 8:48](https://youtu.be/jTk6XP4IgGs?t=528)
     - Duplicated and modified return block of code in App.js
         - Added if statement to code 
-        - second block - modified - used to handle if no data received 
+        - second block - modified - used to handle if no data received
+    - Debug: Add else statement to second block
 
 ## Bugs
 ### Resolved
@@ -90,6 +91,19 @@ https://www.youtube.com/watch?v=jTk6XP4IgGs
     - changed curly brackets to parentheses
 - Solution [3rd occurrence]:
     - Switched curly brackets to parentheses for the json method of the response object saved in resp variable
+
+### Add else statement
+- File path: news-app/src/App.js
+- Problem:
+    - Using Chrome Developer Tools:
+        - Inspect Element:
+            - checked object returned
+            - [as per video tutorial before @ 9:06](https://youtu.be/jTk6XP4IgGs?t=546)
+    - Duplicated code block
+    - Used second block to handle if no data received
+    - else statement missing
+- Solution:
+    - Added else statement [as above, as per video tutorial before @ 9:06](https://youtu.be/jTk6XP4IgGs?t=546)
 
 ## References
 

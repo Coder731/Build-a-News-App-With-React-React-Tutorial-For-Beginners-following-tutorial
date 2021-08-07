@@ -15,8 +15,8 @@ function App() {
       console.log(data);
     };
 
-fetchData() 
-  },[])
+fetchData(); 
+  }, []);
 
   if (data) {
     return (
