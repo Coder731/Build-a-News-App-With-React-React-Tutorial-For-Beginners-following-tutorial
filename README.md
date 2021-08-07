@@ -121,7 +121,7 @@ https://www.youtube.com/watch?v=jTk6XP4IgGs
             - status: "ok"
             - in curly brackets
             - that is, in object
-     
+
 ## References
 
 ### Video Tutorial
