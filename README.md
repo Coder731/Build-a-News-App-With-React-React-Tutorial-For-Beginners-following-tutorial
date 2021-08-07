@@ -105,6 +105,23 @@ https://www.youtube.com/watch?v=jTk6XP4IgGs
 - Solution:
     - Added else statement [as above, as per video tutorial before @ 9:06](https://youtu.be/jTk6XP4IgGs?t=546)
 
+## Unresolved
+### In Console no data in returned Object
+- Problem: 
+    - Using Google Chrome Developer Tools:
+        - Inspect Element
+            - Console:
+                - Object returns as two empty curly brackets
+                    - When expanded:
+                        - gives Prototype Object
+                        - This seems to be the empty form of an object
+- Expected Result:
+    - [From Video Tutorial before @ 9:18](https://youtu.be/jTk6XP4IgGs?t=558)
+        - Expected:
+            - status: "ok"
+            - in curly brackets
+            - that is, in object
+     
 ## References
 
 ### Video Tutorial
