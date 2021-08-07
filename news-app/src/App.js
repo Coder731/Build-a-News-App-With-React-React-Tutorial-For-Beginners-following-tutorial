@@ -13,7 +13,7 @@ function App() {
       const result = await resp.json()
       setData(result)
       console.log(data);
-    }
+    };
 
 fetchData() 
   },[])
