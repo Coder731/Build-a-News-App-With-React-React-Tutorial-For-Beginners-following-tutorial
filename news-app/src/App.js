@@ -18,11 +18,17 @@ function App() {
 fetchData() 
   },[])
 
-  
+  if (data) {
+    return (
+      <div className="App">
+        <h1>Welcome to News App</h1>
+      </div>
+    );
+  }
 
   return (
     <div className="App">
-      <h1>Welcome to News App</h1>
+      <h1>Sorry no data received</h1>
     </div>
   );
 }
