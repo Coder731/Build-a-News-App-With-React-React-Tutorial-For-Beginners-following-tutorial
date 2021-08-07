@@ -24,13 +24,13 @@ fetchData()
         <h1>Welcome to News App</h1>
       </div>
     );
+  }else{
+    return (
+      <div className="App">
+        <h1>Sorry no data received</h1>
+      </div>
+    );
   }
-
-  return (
-    <div className="App">
-      <h1>Sorry no data received</h1>
-    </div>
-  );
 }
 
 export default App;
