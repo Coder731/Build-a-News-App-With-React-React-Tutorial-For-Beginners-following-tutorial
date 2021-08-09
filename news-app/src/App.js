@@ -24,7 +24,7 @@ function App() {
         <h1>Welcome to News App</h1>
       </div>
     );
-  }else{
+  } else {
     return (
       <div className="App">
         <h1>Sorry no data received</h1>
